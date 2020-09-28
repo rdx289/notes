@@ -1,0 +1,48 @@
+.about-header
+{
+	height: 80px;
+	width: 100%;
+	background: #bec5d1;
+	padding-left: 8%;
+
+}
+.about-header h2
+{
+	line-height: 75px;
+	letter-spacing: 5px;
+	font-weight: bolder;
+}
+.about
+{
+	width: 84%;
+	height: auto;
+	margin-left: 8%;
+	padding: 20px 0px;
+}
+.about img
+{
+	height: 400px;
+	width: 100%;
+}
+.about p
+{
+	text-align: justify;
+	height: auto;
+	font-size: 13pt;
+	margin-top: 30px;
+}
+@media only screen and (max-width: 600px)
+{
+.about img
+{
+	height: 250px;
+	width: 100%;
+
+}
+.about p
+{
+	font-size: 12px;
+}
+
+
+}

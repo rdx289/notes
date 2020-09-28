@@ -1,0 +1,483 @@
+
+/*=========================== HEADEER INFO =============================*/
+
+/*=========================== SLIDER BAR =============================*/
+.slider
+{
+	width:100%;
+	height:550px;
+	border-bottom: 3px solid orange;
+}
+.carousel
+{
+	z-index: -1;
+}
+.d_fon
+{
+	margin-bottom:150;
+
+}
+.heading
+{
+	font-size:400%;
+	color:orange;
+	letter-spacing:5px;
+	animation:animate 5s linear;
+}
+.under_heading
+{
+	letter-spacing: 2px;
+}
+
+.the_best
+{
+	letter-spacing: 10px;
+	margin-bottom:-20px;
+	font-size:110%;
+}
+.f_color
+{
+color:#0047b3;
+font-size: 60px;
+}
+
+/*=========================== WHY SANJAY MATHS =============================*/
+.why
+{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-size: 100% 100%;
+	border-bottom: 3px solid orange;
+	background-image: linear-gradient(rgba(82, 78, 144,0.5),rgba(82, 78, 144,0.5)),url("../assoc/book.png");
+}
+.under-why
+{
+	width:84%;
+	height: auto;
+	margin-left: 8%;
+	background: #1b2029;
+	padding:35px 25px;
+	color: #f2f2f2;
+}
+.under-why p
+{
+	font-family: Calibri;
+	text-transform: capitalize;
+	text-align: justify;
+	margin-top: 20px;
+	height: auto;
+	font-weight: lighter;
+}
+
+/*=========================== NOTICE =============================*/
+.main-notice
+{
+
+	height: 400px;
+	margin-top: 10px;
+	width:100%;
+
+}
+.director
+{
+	width: 49%;
+	height: 400px;
+	float: left;
+	margin-left: 1%;
+
+}
+
+.director-margin
+{
+	width:98%;
+	height: 340px;
+	margin-left: 2%;
+	overflow: hidden;
+}
+.director img
+{	
+	height: 200px;
+	width: 170px;
+	float: left;
+	box-shadow: 0px 0px 2px black;
+}
+.under-director
+{
+	width: 400px;
+	margin-left: 200px;
+	height: 100%;
+
+
+}
+.under-director h2
+{
+	font-family: 'Literata', serif;
+
+}
+.director-data
+{
+	width:100%;
+	height: auto;
+	padding: 10px;
+	text-align: justify;
+
+}
+.notice
+{
+	width: 49%;
+	height: 400px;
+	float: right;
+	background: #f2f2f2;
+	margin-right: 1%;
+
+}
+.notice h1,.director h1
+{
+	width: 100%;
+	height: 50px;
+	background: #524e90;
+	color: orange;
+	line-height: 50px;
+	padding-left: 10px;
+	box-shadow: 0px 0px 2px black;
+}
+.notice marquee
+{
+	margin-left:30px;
+	margin-top:10px;
+	width:90%;
+	height:280px;
+}
+/*------------------------- Testimonials------------ */
+.testimonial{
+	border-top: 3px solid orange;
+	height: 550px;
+	background: #fff;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+.testimonial h4
+{
+	text-align:center;
+	font-size:40px;
+	margin-top: 20px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	color: orange;
+	text-shadow: 0px 0px 2px purple;
+}
+.achieve
+{
+	width:100%;
+	margin-top: 80px;
+	height:220px;
+	float:left;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color:#fff;
+	border-radius: 5px;
+	padding:5px;
+}
+.quote
+{
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 10px;
+	background: orange;
+	text-align: center;
+
+	border-radius: 50%;
+}
+.fa-quote-left
+{
+	margin-top:13px;
+	color: #f2f2f2;
+}
+.test-imag
+{
+	height: 160px;
+	width: 160px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	margin-left: 100px;
+	border:3px solid #fff;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.achieve h5
+{
+	margin-left: 200px;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-top: 10px;
+	font-family: callibari;
+	margin-bottom: 0px;	
+	text-transform: uppercase;
+}
+.achieve h6
+{
+	margin-left: 200px;
+	font-family: callibari;
+	font-size: 15px;
+	margin-top: 5px;
+	font-weight: lighter;
+	color: #969696;
+	
+	}
+
+.test-data
+{
+	width: 100%;
+	height: 130px;
+	margin-top:15px;
+	overflow: auto;
+	text-align: justify;
+	font-size: 12pt;
+	padding-left:25px;
+	padding-right: 25px;
+	color: #454444;
+}
+.owl-carousel
+{
+	background: #f2f2f2;
+	margin-top: 30px;
+	height:400px;
+	padding:2%;
+	border-radius: 5px;
+
+	box-shadow: 0px 0px 2px black;
+}
+
+/*---------------------------------------- YOUTUBE-VIDEO=-------------------*/
+.youtube-video
+{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.youtube-video h3
+{
+	text-align:center;
+	font-size:40px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	color: orange;
+	text-shadow: 0px 0px 2px purple;
+}
+.under-youtube
+{
+	height:350px;
+	width:50%;
+	margin-left: 25%;
+	margin-top: 30px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 2px black;
+}
+.youtube-btn
+{
+	height: 60px;
+	margin-top: 30px;
+	width:100%;
+	line-height: 60px;
+	text-align: center;
+
+}
+.youtube-btn a
+{
+	padding: 15px 25px;	
+	letter-spacing: 1px;
+	font-size: 18px;
+	border-radius: 8px;
+	background: #538eed;
+	color: #f2f2f2;
+
+}
+.youtube-btn a:hover
+{
+	text-decoration: none;
+	border:2px solid #538eed;
+	background: #fff;
+	color: #538eed;
+	transition: 0.5s;
+}
+/*======================================================Tablet View====================================================*/
+@media only screen and (max-width: 900px)
+{
+.main-notice
+{
+
+	height: 810px;
+
+}
+.director
+{
+	width: 98%;
+
+}
+.notice
+{
+	width:98%;
+	margin-top: 5px;
+}
+.director img
+{	
+	height: 130px;
+	border-radius: 50%;	
+	transform: translate(-50%,-50%);
+	margin: 80px 50%;
+	width: 130px;
+	float: none;
+}
+
+.under-director
+{
+	width: 100%;
+	text-align: center;
+	height: 180px;
+	margin-left: 0px;
+	margin-top: -130px;
+	overflow: scroll;
+
+}
+.director-data
+{
+	width:100%;
+	height: auto;
+	padding: 5px;
+	font-size: 9pt;
+
+}
+
+.under-youtube
+{
+	height:350px;
+	width:84%;
+	margin-left: 8%;
+}
+
+}
+/*======================================================Phone View====================================================*/
+@media only screen and (max-width: 600px)
+{
+	.carousel,.carousel-inner,.carousel-item
+	{
+		height: 300px;
+	}
+	.slider
+{
+	width:100%;
+	height:300px;
+}
+.d_fon
+{
+	margin-bottom:20px;
+
+}
+.heading
+{
+	font-size:30px;
+	color:orange;
+	margin-top: 20px;
+	letter-spacing:5px;
+	animation:animate 5s linear;
+}
+.under_heading
+{
+	letter-spacing: 2px;
+}
+
+.the_best
+{
+	letter-spacing: 10px;
+	margin-bottom:-20px;
+	font-size:110%;
+}
+.f_color
+{
+color:#0047b3;
+font-size: 30px;
+}
+
+	.under-why p
+{
+	font-size: 12px;
+
+}
+.under-youtube
+{
+	height:300px;
+	width:84%;
+	margin-left: 8%;
+}
+.testimonial{
+	
+	height: 550px;
+	background: #fff;
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.owl-carousel
+{
+	background: #f2f2f2;
+	margin-top: 30px;
+	height:400px;
+	}
+.achieve
+{
+	margin-top: 80px;
+	height:250px;
+}
+.test-imag
+{
+	height: 140px;
+	width: 140px;
+	margin-left: 50%;
+}
+
+
+
+
+.quote
+{
+	display: none;
+}
+
+.achieve h5
+{
+	font-size: 20px;
+		margin-left: 0px;
+	text-align: center;
+	margin-top: 80px;
+}
+.achieve h6
+{
+	margin-left: 0px;
+	font-size: 15px;
+	margin-top: 5px;
+	text-align: center;
+	
+	}
+
+.test-data
+{
+	width: 100%;
+	height: 100px;
+	margin-top:0px;
+	font-size: 10pt;
+	padding-left:15px;
+	padding-right: 15px;
+}
+
+}
