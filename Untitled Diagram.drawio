@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T05:31:09.228Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="V9-krjc_f8uOxgy7aYPv" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-20T14:58:19.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4eI0pACH_XqErIRvSRjQ" version="20.4.0" type="github">
   <diagram id="PSuCmmEAhEBetLL8J9Au" name="Page-1">
-    <mxGraphModel dx="1422" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aV027MOJIJmBQHzBGB6--1" value="NOye&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="390" width="60" height="30" as="geometry" />
+        <mxCell id="oPIiIIVX-Vzoe751ov-N-1" value="&lt;h1&gt;Operating System&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px;&quot;&gt;An operating system is system software that manages computer hardware, software resources, and provides common services for computer programs.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="690" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oPIiIIVX-Vzoe751ov-N-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/800px-Operating_system_placement.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="189" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oPIiIIVX-Vzoe751ov-N-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mycomputernotes.com/wp-content/uploads/2019/01/computer_hardware.jpg;" vertex="1" parent="1">
+          <mxGeometry x="330" y="215" width="424" height="265" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
