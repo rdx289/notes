@@ -1,17 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T14:58:19.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4eI0pACH_XqErIRvSRjQ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T04:33:36.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="ZOijMqz_LTymGhqRGDbT" version="20.8.23" type="github">
   <diagram id="PSuCmmEAhEBetLL8J9Au" name="Page-1">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1409" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oPIiIIVX-Vzoe751ov-N-1" value="&lt;h1&gt;Operating System&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px;&quot;&gt;An operating system is system software that manages computer hardware, software resources, and provides common services for computer programs.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="690" height="100" as="geometry" />
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-12" value="NFNEPRODCVOHA" style="swimlane;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="31" y="80" width="150" height="30" as="geometry">
+            <mxRectangle y="120" width="800" height="690" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="oPIiIIVX-Vzoe751ov-N-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/800px-Operating_system_placement.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="189" height="280" as="geometry" />
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-15" value="NFNEPRODCVOHA-01" style="swimlane;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" collapsed="1" parent="8QuLhzeU50cvJ7wqlkC0-12">
+          <mxGeometry x="31" y="90" width="170" height="30" as="geometry">
+            <mxRectangle x="31" y="90" width="470" height="290" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="oPIiIIVX-Vzoe751ov-N-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mycomputernotes.com/wp-content/uploads/2019/01/computer_hardware.jpg;" vertex="1" parent="1">
-          <mxGeometry x="330" y="215" width="424" height="265" as="geometry" />
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-25" value="svm_NENEPRODCVOHA" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=30;horizontalStack=0;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-15">
+          <mxGeometry x="30" y="40" width="410" height="230" as="geometry">
+            <mxRectangle x="30" y="50" width="40" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-26" value="Data Lif" style="swimlane;startSize=20;horizontal=0;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-25">
+          <mxGeometry x="30" width="380" height="110" as="geometry">
+            <mxRectangle x="30" width="380" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-27" value="172.18.0.145 NFS/SMB/CIFS&lt;br&gt;172.18.0.146 NFS/SMB/CIFS&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-26">
+          <mxGeometry x="140" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-28" value="Cluster Mgmt lif" style="swimlane;startSize=20;horizontal=0;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-25">
+          <mxGeometry x="30" y="110" width="380" height="120" as="geometry">
+            <mxRectangle x="30" y="60" width="380" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-29" value="T&lt;br&gt;172.18.0.145 node1mgmt&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;172.18.0.146 node2mgmt&lt;br&gt;IP cluster mgmt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-28">
+          <mxGeometry x="160" y="30" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-30" value="NFNEPRODCVOHA-01" style="swimlane;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" collapsed="1" parent="8QuLhzeU50cvJ7wqlkC0-12">
+          <mxGeometry x="60" y="390" width="170" height="30" as="geometry">
+            <mxRectangle x="60" y="390" width="369" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-31" value="svm_NENEPRODCVOHA" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=30;horizontalStack=0;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-30">
+          <mxGeometry x="30" y="40" width="410" height="230" as="geometry">
+            <mxRectangle x="30" y="50" width="40" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-32" value="Data Lif" style="swimlane;startSize=20;horizontal=0;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-31">
+          <mxGeometry x="30" width="380" height="110" as="geometry">
+            <mxRectangle x="30" width="380" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-33" value="172.18.0.145 NFS/SMB/CIFS&lt;br&gt;172.18.0.146 NFS/SMB/CIFS&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-32">
+          <mxGeometry x="140" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-34" value="Cluster Mgmt lif" style="swimlane;startSize=20;horizontal=0;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-31">
+          <mxGeometry x="30" y="110" width="380" height="120" as="geometry">
+            <mxRectangle x="30" y="60" width="380" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QuLhzeU50cvJ7wqlkC0-35" value="T&lt;br&gt;172.18.0.145 node1mgmt&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;172.18.0.146 node2mgmt&lt;br&gt;IP cluster mgmt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="8QuLhzeU50cvJ7wqlkC0-34">
+          <mxGeometry x="160" y="30" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
